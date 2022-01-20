@@ -14,7 +14,7 @@ namespace MoveMe
             return "Je bois";
         }
 
-        public string Sleep() 
+        public virtual string Sleep() 
         {
             return "Je dors";
         }
