@@ -4,7 +4,7 @@ using MoveMe;
 
 namespace TestMoveMe
 {
-    public class Tests
+    public class TestVehicle
     {
         public void MotorStart_NominalCase_Success()
         {
