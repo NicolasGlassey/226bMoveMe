@@ -6,8 +6,6 @@ namespace MoveMe
     {
         private string _licence;
         private Car _car = null;
-        private bool _drive = false;
-        private bool _engine = false;
 
         public Driver (string licence)
         {
@@ -27,36 +25,32 @@ namespace MoveMe
             set
             {
                 //TODO avoid multiple cars attribution
-                //TODO avoid 
-                throw new NotImplementedException();
+                _car = value;
             }
             get
             {
-                throw new NotImplementedException();
-            }
-        }
-
-        public bool Engine
-        {
-            get
-            {
-                throw new NotImplementedException();
+                return _car;
             }
         }
 
         public override string Sleep()
         {
-            throw new NotImplementedException();
+            if (_car.MotorState)
+            {
+                _car.MotorStop();
+            }
+            return base.Sleep();
         }
 
         public void StartEngine()
         {
             //TODO protect engine if already running
+            _car.MotorStart();
         }
 
         private void StopEngine()
         {
-            //TODO protect engine if already running
+            _car.MotorStop();
         }
     }
 }

@@ -32,7 +32,7 @@ namespace TestMoveMe
             driver.StartEngine();
 
             //then
-            Assert.IsTrue(driver.Engine);
+            Assert.IsTrue(car.MotorState);
         }
 
         [Test]
@@ -44,11 +44,15 @@ namespace TestMoveMe
             driver.Car = car;
             driver.StartEngine();
 
+            string expectedMessage = "Je dors";
+            string actualMessage = "";
+
             //when
-            driver.Sleep();
+            actualMessage = driver.Sleep();
 
             //then
-            Assert.IsFalse(driver.Engine);
+            Assert.IsFalse(car.MotorState);
+            Assert.AreEqual(expectedMessage, actualMessage);
         }
     }
 }
