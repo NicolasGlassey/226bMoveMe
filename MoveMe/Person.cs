@@ -1,18 +1,23 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MoveMe
 {
     public class Person : IPerson
     {
-        public virtual void Eat(){ }
+        public virtual string Eat()
+        {
+            throw new NotImplementedException();
+        }
 
-        public void Drink() { }
+        public string Drink() 
+        {
+            throw new NotImplementedException();
+        }
 
-        public void Sleep() { }
+        public string Sleep() 
+        {
+            throw new NotImplementedException();
+        }
 
     }
 }

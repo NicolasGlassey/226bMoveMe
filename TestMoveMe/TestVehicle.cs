@@ -6,6 +6,7 @@ namespace TestMoveMe
 {
     public class TestVehicle
     {
+        [Test]
         public void MotorStart_NominalCase_Success()
         {
             //given
@@ -18,6 +19,7 @@ namespace TestMoveMe
             Assert.IsTrue(vehicle.MotorState);
         }
 
+        [Test]
         public void MotorStop_NominalCase_Success()
         {
             //given
