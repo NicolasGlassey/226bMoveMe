@@ -12,3 +12,7 @@ namespace MoveMe
         } 
     }
 }
+
+public class RaceDriverException : Exception{ }
+
+public class EatForbiddenException : RaceDriverException { }
