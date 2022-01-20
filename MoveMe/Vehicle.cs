@@ -9,12 +9,12 @@ namespace MoveMe
 
         public void MotorStart()
         {
-            throw new System.NotImplementedException();
+            _motorState = true;
         }
 
         public void MotorStop()
         {
-            throw new System.NotImplementedException();
+            _motorState = false;
         }
 
         public bool MotorState

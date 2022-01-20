@@ -27,13 +27,10 @@ namespace TestMoveMe
             vehicle.MotorStart();
 
             //when
-            Assert.Throws<MotorStartException>(delegate
-            {
-                vehicle.MotorStart();
-            });
+            vehicle.MotorStop();
 
             //then
-            //Exception thrown
+            Assert.IsFalse(vehicle.MotorState);
         }
     }
 }

@@ -6,18 +6,17 @@ namespace MoveMe
     {
         public virtual string Eat()
         {
-            throw new NotImplementedException();
+            return "Je mange";
         }
 
         public string Drink() 
         {
-            throw new NotImplementedException();
+            return "Je bois";
         }
 
         public string Sleep() 
         {
-            throw new NotImplementedException();
+            return "Je dors";
         }
-
     }
 }
