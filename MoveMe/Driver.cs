@@ -5,7 +5,7 @@ namespace MoveMe
     public class Driver:Person
     {
         private string _licence;
-        private Car _car = null;
+        protected Car _car = null;
 
         public Driver (string licence)
         {

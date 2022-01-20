@@ -8,7 +8,11 @@ namespace MoveMe
 
         public override string Eat() 
         {
-            throw new NotImplementedException();
+            if (!_car.MotorState)
+            {
+                return base.Eat();
+            }
+            throw new EatForbiddenException();
         } 
     }
 }
