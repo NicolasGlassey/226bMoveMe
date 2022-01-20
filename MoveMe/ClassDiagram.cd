@@ -1,32 +1,89 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="MoveMe.Car">
-    <Position X="7.75" Y="3" Width="1.5" />
+  <Class Name="MoveMe.Bike" Collapsed="true">
+    <Position X="3.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bike.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveMe.Car" Collapsed="true">
+    <Position X="8" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Car.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="MoveMe.Truck">
-    <Position X="5.25" Y="3" Width="1.5" />
+  <Class Name="MoveMe.Driver" Collapsed="true">
+    <Position X="12.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAQQAAAAAAAAAAIAAAAQAAAAAAAAAAAAICAA=</HashCode>
+      <FileName>Driver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveMe.Passenger" Collapsed="true">
+    <Position X="10.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Passenger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveMe.Person" Collapsed="true">
+    <Position X="11.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEQgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MoveMe.RaceDriver" Collapsed="true">
+    <Position X="12.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RaceDriver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveMe.Truck" Collapsed="true">
+    <Position X="5.75" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Truck.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MoveMe.Vehicle" Collapsed="true">
-    <Position X="7.75" Y="1.25" Width="1.5" />
+    <Position X="5.75" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>ACAAEAACAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Vehicle.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="MoveMe.Bike">
-    <Position X="10" Y="3" Width="1.5" />
+  <Class Name="MoveMe.VehicleException" Collapsed="true">
+    <Position X="5.75" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Bike.cs</FileName>
+      <FileName>Vehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveMe.MotorStartException" Collapsed="true">
+    <Position X="5.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RaceDriverException" Collapsed="true">
+    <Position X="10.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RaceDriver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EatForbiddenException" Collapsed="true">
+    <Position X="10.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RaceDriver.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
